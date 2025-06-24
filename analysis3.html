@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise - Teste da Data de Nascimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="compatibility-check.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-content">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="/lovable-uploads/1e571286-085e-4761-bd40-6d0ee007b4ab.png" alt="Teste da Data de Nascimento" class="analysis-logo">
+            </div>
+            
+            <div class="analysis-content">
+                <p class="analysis-number">9➤</p>
+                
+                <div class="analysis-text">
+                    <p>Mas aqui está o mais importante, <span id="userName2">João</span>... Sua data de nascimento <strong><span id="birthInfo2">3/Março/1931</span></strong> também revela como destravar sua prosperidade! Então eu vou liberar, aqui e agora... 📊 Um Relatório Personalizado e sob medida, com as respostas de que precisa... Por favor me confirme se você quer. <span class="required">*</span></p>
+                    <p>(confirme seu interesse e clique em continuar 👇)</p>
+                </div>
+                
+                <div class="confirmation-option">
+                    <div class="option-card selected" onclick="selectConfirmOption(this)">
+                        <div class="option-letter">A</div>
+                        <div class="option-text">SIM, QUERO</div>
+                    </div>
+                </div>
+                
+                <p class="choose-option">Escolha uma Opção</p>
+                
+                <button class="next-btn" onclick="confirmAndNext()">» CONTINUAR</button>
+                <p class="press-enter">Pressione Enter ↵</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function selectConfirmOption(element) {
+            // This option is already selected by default
+            var nextBtn = document.querySelector('.next-btn');
+            if (nextBtn) {
+                nextBtn.disabled = false;
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

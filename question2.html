@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 2 - Teste da Data de Nascimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="compatibility-check.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-content">
+            <div class="question-number">2➤</div>
+            <h2 class="question-title">Homens e mulheres recebem diferentes energias ao nascer. Você é... <span class="required">*</span></h2>
+            
+            <div class="options-container">
+                <div class="option-card" onclick="selectOption('gender', 'homem', this)">
+                    <div class="option-letter">A</div>
+                    <div class="option-text">homem</div>
+                </div>
+                
+                <div class="option-card" onclick="selectOption('gender', 'mulher', this)">
+                    <div class="option-letter">B</div>
+                    <div class="option-text">mulher</div>
+                </div>
+            </div>
+            
+            <p class="choose-option">Escolha uma Opção</p>
+            
+            <button class="next-btn" disabled onclick="saveAndNext('question2', 'gender', 'question3.html')">Próximo</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

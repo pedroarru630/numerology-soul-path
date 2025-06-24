@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 7 - Teste da Data de Nascimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="compatibility-check.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-content">
+            <div class="question-number">7➤</div>
+            <h2 class="question-title">Por fim, para o cálculo completo do seu nascimento... Qual o ano em que nasceu? <span class="required">*</span></h2>
+            <p class="question-example">(Exemplo, se nasceu em 1985, selecione a opção: 1985)</p>
+            
+            <div class="input-container">
+                <select id="birthYear" class="select-input">
+                    <option value="">- Selecione Aqui -</option>
+                </select>
+            </div>
+            
+            <button class="next-btn" disabled onclick="saveAndNext('question7', 'birthYear', 'confirmation.html')">Próximo</button>
+        </div>
+    </div>
+    
+    <script>
+        // Populate year dropdown
+        var yearSelect = document.getElementById('birthYear');
+        var currentYear = new Date().getFullYear();
+        for (var year = currentYear; year >= 1920; year--) {
+            var option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            yearSelect.appendChild(option);
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

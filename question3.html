@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 3 - Teste da Data de Nascimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="compatibility-check.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-content">
+            <div class="question-number">3➤</div>
+            <h2 class="question-title">Para uma leitura precisa dos seus relacionamentos... Qual estado melhor te define no momento? <span class="required">*</span></h2>
+            
+            <div class="options-container">
+                <div class="option-card" onclick="selectOption('relationship', 'casamento', this)">
+                    <div class="option-letter">A</div>
+                    <div class="option-text">casamento</div>
+                </div>
+                
+                <div class="option-card" onclick="selectOption('relationship', 'solteirismo', this)">
+                    <div class="option-letter">B</div>
+                    <div class="option-text">solteirismo</div>
+                </div>
+                
+                <div class="option-card" onclick="selectOption('relationship', 'separei', this)">
+                    <div class="option-letter">C</div>
+                    <div class="option-text">separei</div>
+                </div>
+            </div>
+            
+            <p class="choose-option">Escolha uma Opção</p>
+            
+            <button class="next-btn" disabled onclick="saveAndNext('question3', 'relationship', 'question4.html')">Próximo</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 6 - Teste da Data de Nascimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="compatibility-check.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-content">
+            <div class="question-number">6➤</div>
+            <h2 class="question-title">Agora selecione abaixo o mês do nascimento: <span class="required">*</span></h2>
+            <p class="question-example">(Exemplo, se nasceu no dia 10 de fevereiro, selecione: Fevereiro)</p>
+            
+            <div class="input-container">
+                <select id="birthMonth" class="select-input">
+                    <option value="">- Selecione Aqui -</option>
+                    <option value="Janeiro">Janeiro</option>
+                    <option value="Fevereiro">Fevereiro</option>
+                    <option value="Março">Março</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Maio">Maio</option>
+                    <option value="Junho">Junho</option>
+                    <option value="Julho">Julho</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Setembro">Setembro</option>
+                    <option value="Outubro">Outubro</option>
+                    <option value="Novembro">Novembro</option>
+                    <option value="Dezembro">Dezembro</option>
+                </select>
+            </div>
+            
+            <button class="next-btn" disabled onclick="saveAndNext('question6', 'birthMonth', 'question7.html')">Próximo</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

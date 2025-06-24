@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 1 - Teste da Data de Nascimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="compatibility-check.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-content">
+            <div class="question-number">1➤</div>
+            <h2 class="question-title">Para começarmos, qual o seu primeiro nome? <span class="required">*</span></h2>
+            <p class="question-example">Por exemplo: João</p>
+            
+            <div class="input-container">
+                <input type="text" id="firstName" class="text-input" placeholder="Responde aqui..." maxlength="50">
+            </div>
+            
+            <button class="next-btn" disabled onclick="saveAndNext('question1', 'firstName', 'question2.html')">Próximo</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
