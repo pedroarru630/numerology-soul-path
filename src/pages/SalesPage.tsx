@@ -1,4 +1,3 @@
-
 import { useQuizParams } from '@/hooks/useQuizParams';
 
 const SalesPage = () => {
@@ -11,6 +10,660 @@ const SalesPage = () => {
   const ano = params.ano || '2000';
   const score = params.score || '8';
   const foco = params.area || 'dinheiro';
+
+  const getArchetypeText = (scoreValue: string) => {
+    switch (scoreValue) {
+      case '1':
+        return (
+          <>
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>LÍDER PIONEIRO</strong>, um dos perfis mais poderosos e determinados do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você frequentemente se encontra assumindo a liderança em situações, mesmo quando não planejou fazê-lo?
+            </p>
+
+            <p className="text-gray-300">
+              Como suas ideias originais tendem a abrir novos caminhos?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia independente que naturalmente comanda respeito e atenção.
+            </p>
+
+            <p className="text-gray-300">
+              Sua determinação inabalável e visão clara fazem com que outros busquem sua orientação e conselhos, reconhecendo uma força interior que você às vezes subestima.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros hesitam diante de novos territórios, você avança com coragem!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de traçar seu próprio caminho, enxergando soluções originais onde a maioria apenas segue fórmulas estabelecidas.
+            </p>
+
+            <p className="text-gray-300">
+              Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte de transformar ideias em realidade.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos permanecem no reino dos sonhos e teorias, você possui a iniciativa e força de vontade para materializar seus planos com uma determinação que poucos conseguem igualar.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você sente muita realização quando está criando algo novo, liderando um projeto ou seguindo seu próprio caminho?
+            </p>
+
+            <p className="text-gray-300">
+              Que depender das decisões dos outros ou seguir regras impostas por terceiros parece sufocar sua verdadeira natureza?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para iniciar, liderar e conquistar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão crucial na sua vida...
+            </p>
+          </>
+        );
+
+      case '3':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>COMUNICADOR CRIATIVO</strong>, um dos perfis mais expressivos e inspiradores do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você frequentemente se torna o centro das atenções em grupos sociais?
+            </p>
+
+            <p className="text-gray-300">
+              Como as pessoas naturalmente sorriem e se animam em sua presença?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia vibrante que naturalmente ilumina ambientes e eleva o humor das pessoas.
+            </p>
+
+            <p className="text-gray-300">
+              Seu charme natural e habilidade de expressão fazem com que outros se sintam instantaneamente confortáveis ao seu lado, absorvendo a alegria que você transmite sem esforço.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros lutam para encontrar as palavras certas, você se comunica com fluidez e criatividade!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de transformar ideias em histórias cativantes, encontrando o humor e a beleza em situações onde a maioria só vê o comum.
+            </p>
+
+            <p className="text-gray-300">
+              Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte da expressão criativa.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos reprimem seus talentos artísticos, você possui uma capacidade natural de manifestar sua imaginação de formas que inspiram e encantam aqueles ao seu redor.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você sente muito mais realização quando está expressando suas ideias, fazendo os outros rirem ou criando algo que toca emocionalmente as pessoas?
+            </p>
+
+            <p className="text-gray-300">
+              Que ambientes rígidos e sérios parecem sufocar sua verdadeira natureza radiante?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para inspirar, criar e iluminar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão decisivo na sua vida...
+            </p>
+          </>
+        );
+
+      case '4':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>CONSTRUTOR METÓDICO</strong>, um dos perfis mais confiáveis e fundamentais do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você frequentemente se torna a pessoa em quem todos confiam para concretizar projetos importantes?
+            </p>
+
+            <p className="text-gray-300">
+              Como as pessoas naturalmente recorrem a você quando precisam de soluções práticas e confiáveis?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia estável que naturalmente transmite segurança e confiabilidade.
+            </p>
+
+            <p className="text-gray-300">
+              Sua atenção aos detalhes e capacidade de criar sistemas eficientes fazem com que outros dependam do seu senso prático, reconhecendo uma solidez que poucos conseguem oferecer.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros se perdem em sonhos e teorias, você transforma ideias em realidade concreta!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de estabelecer fundações sólidas e estruturas duradouras, enxergando cada etapa necessária onde a maioria só vê o resultado final.
+            </p>
+
+            <p className="text-gray-300">
+              Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte da persistência disciplinada.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos desistem diante dos primeiros obstáculos, você mantém um comprometimento inabalável com seus objetivos, com uma determinação e ética de trabalho que impressiona todos ao seu redor.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você sente grande satisfação quando completa um projeto meticulosamente planejado, quando estabelece uma rotina eficiente ou quando cria algo de valor duradouro?
+            </p>
+
+            <p className="text-gray-300">
+              Que ambientes desorganizados e planos mal definidos parecem contrariar sua natureza estruturada?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para construir, organizar e estabilizar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+
+      case '5':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Isso significa que você nasceu com o arquétipo do <strong>AVENTUREIRO</strong>, um dos perfis mais poderosos e abundantes do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como a vida parece te trazer constantemente novas experiências e oportunidades?
+            </p>
+
+            <p className="text-gray-300">
+              Como as pessoas são naturalmente atraídas pela sua energia?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma energia magnética que naturalmente atrai pessoas interessantes e situações estimulantes.
+            </p>
+
+            <p className="text-gray-300">
+              Sua curiosidade insaciável e forma única de ver o mundo fazem com que outros gravitem ao seu redor, absorvendo um pouco dessa vibração especial que você irradia naturalmente.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros resistem a mudanças, você prospera nelas!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de transformar caos em oportunidade, enxergando possibilidades onde a maioria só vê problemas.
+            </p>
+
+            <p className="text-gray-300">
+              Este é o seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte de equilibrar múltiplas responsabilidades ao mesmo tempo.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos se sentiriam sobrecarregados com tantas tarefas, você navega entre diferentes projetos com uma facilidade que impressiona.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você se sente muito bem quando está conhecendo pessoas novas, visitando lugares diferentes ou embarcando em uma nova aventura?
+            </p>
+
+            <p className="text-gray-300">
+              Que rotina e repetição são quase como prisões para seu espírito livre?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para explorar, descobrir e transformar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão crucial na sua vida...
+            </p>
+          </>
+        );
+
+      case '6':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>GUARDIÃO</strong>, um dos perfis mais amorosos e responsáveis do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você frequentemente se torna o pilar de apoio para família e amigos? Como as pessoas naturalmente compartilham seus problemas com você, buscando seu conselho e orientação?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia nutriente que naturalmente cria harmonia e beleza ao seu redor.
+            </p>
+
+            <p className="text-gray-300">
+              Seu senso inato de responsabilidade e capacidade de cuidar dos outros fazem com que as pessoas se sintam seguras e amparadas em sua presença, reconhecendo uma sabedoria amorosa que emana naturalmente de você.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros fogem de compromissos e responsabilidades, você os abraça com dignidade!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de equilibrar as necessidades de todos à sua volta, criando ambientes onde as pessoas se sentem valorizadas e compreendidas. Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte de transformar casas em lares. Onde muitos criam apenas espaços funcionais, você cria santuários de harmonia e beleza, com uma sensibilidade estética e atenção aos detalhes que tornam tudo mais especial e acolhedor.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você se sente profundamente realizado quando consegue resolver os problemas dos outros, quando cria ambientes harmoniosos ou quando vê as pessoas que ama felizes e bem cuidadas?
+            </p>
+
+            <p className="text-gray-300">
+              Que ambientes de conflito e desarmonia parecem afrontar sua natureza conciliadora?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para nutrir, harmonizar e proteger!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+
+      case '7':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>SÁBIO ANALÍTICO</strong>, um dos perfis mais intuitivos e perspicazes do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você frequentemente percebe verdades e padrões ocultos que passam despercebidos para os outros?
+            </p>
+
+            <p className="text-gray-300">
+              Como as pessoas naturalmente buscam sua opinião sobre questões complexas e profundas?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia contemplativa que naturalmente penetra além das aparências superficiais.
+            </p>
+
+            <p className="text-gray-300">
+              Sua mente analítica e intuição refinada fazem com que outros respeitem sua visão única, reconhecendo uma profundidade intelectual e espiritual que poucos conseguem acessar.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros se contentam com explicações superficiais, você busca incansavelmente a verdade essencial!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de conectar pontos aparentemente desconexos, revelando significados ocultos onde a maioria apenas vê eventos aleatórios. Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte da introspecção consciente. Onde muitos temem a solidão, você encontra clareza e força no silêncio, com uma riqueza de vida interior que surpreenderia a maioria das pessoas que conhece apenas seu lado exterior.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você se sente profundamente satisfeito quando está investigando mistérios, desvendando conhecimentos complexos ou dedicando tempo à reflexão e ao autoconhecimento?
+            </p>
+
+            <p className="text-gray-300">
+              Que ambientes superficiais e conversas triviais parecem drenar sua energia natural?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para analisar, compreender e iluminar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+
+      case '9':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>HUMANITÁRIO ILUMINADO</strong>, um dos perfis mais compassivos e universais do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você naturalmente enxerga além das aparências e conecta-se com a essência das pessoas?
+            </p>
+
+            <p className="text-gray-300">
+              Como frequentemente sente as dores e alegrias dos outros como se fossem suas próprias?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia elevada que naturalmente inspira e transforma.
+            </p>
+
+            <p className="text-gray-300">
+              Sua visão abrangente e capacidade de perdoar fazem com que outros se sintam compreendidos em um nível profundo, reconhecendo uma sabedoria compassiva que você transmite mesmo sem palavras.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros se prendem a mágoas e ressentimentos, você tem a capacidade de soltar e transcender!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma habilidade extraordinária de enxergar o quadro completo da vida, percebendo conexões e significados onde a maioria apenas vê eventos isolados. Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte da inspiração altruísta.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos buscam apenas benefícios pessoais, você encontra profunda satisfação em contribuir para algo maior que você mesmo, com uma generosidade e idealismo que elevam todos ao seu redor.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você sente muito mais satisfação quando está ajudando os outros, expressando sua criatividade ou contribuindo para uma causa que transcende interesses individuais?
+            </p>
+
+            <p className="text-gray-300">
+              Que ambientes de competição egoísta e materialismo vazio parecem contradizer sua natureza elevada?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para inspirar, transformar e transcender!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+
+      case '11':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>VISIONÁRIO INTUITIVO</strong>, um dos perfis mais raros e iluminados do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você frequentemente tem insights ou pressentimentos que depois se confirmam?
+            </p>
+
+            <p className="text-gray-300">
+              Como as pessoas são naturalmente atraídas pela sua energia elevada e perspectivas inspiradoras?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia altamente intuitiva que naturalmente conecta os mundos material e espiritual.
+            </p>
+
+            <p className="text-gray-300">
+              Sua sensibilidade amplificada e capacidade de inspirar fazem com que outros busquem sua orientação nos momentos mais importantes, reconhecendo uma sabedoria que transcende o conhecimento comum.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros permanecem presos à visão convencional da realidade, você acessa dimensões mais sutis!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de receber inspiração e visões do futuro, percebendo possibilidades elevadas onde a maioria apenas enxerga o óbvio e o material. Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte da inspiração transformadora.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos simplesmente comunicam informações, você transmite energia e luz através das suas palavras e presença, com uma capacidade natural de elevar a consciência daqueles que entram em contato com você.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você se sente uma maior sintonia quando está compartilhando sua visão com os outros, quando segue sua intuição profunda ou quando serve como ponte entre diferentes níveis de compreensão?
+            </p>
+
+            <p className="text-gray-300">
+              Que ambientes puramente materialistas e céticos parecem sufocar sua verdadeira natureza visionária?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para iluminar, inspirar e elevar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+
+      case '22':
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>CONSTRUTOR MESTRE</strong>, o mais raro e poderoso de todos os perfis do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você naturalmente concebe ideias e projetos em escala grandiosa?
+            </p>
+
+            <p className="text-gray-300">
+              Como as pessoas instintivamente reconhecem seu potencial para realizar coisas realmente extraordinárias?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia monumental que naturalmente combina visão idealista com pragmatismo excepcional.
+            </p>
+
+            <p className="text-gray-300">
+              Sua capacidade única de materializar sonhos ambiciosos faz com que outros confiem em seu julgamento, reconhecendo uma força construtora que pouquíssimas pessoas no mundo manifestam.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros se limitam a pequenas realizações, você visualiza monumentos!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de transformar visões inspiradas em realidades concretas, criando estruturas e sistemas onde a maioria apenas vê possibilidades vagas. Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte de manifestação em larga escala.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos se contentam com realizações modestas, você possui a disciplina e a visão para criar legados duradouros, com uma capacidade de planejamento e execução que impressiona mesmo os mais bem-sucedidos ao seu redor.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você se sente um maior nível de realização quando está criando algo de impacto significativo, quando trabalha em projetos que beneficiam muitas pessoas ou quando transforma uma visão ambiciosa em realidade tangível?
+            </p>
+
+            <p className="text-gray-300">
+              Que empreendimentos pequenos e sem visão maior parecem desperdiçar seu potencial inato?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para conceber, construir e transformar em escala magistral!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+
+      default: // case '8' as default
+        return (
+          <>
+            <p className="text-gray-300">
+              Então, seu Número de Destino é <strong className="text-yellow-400">{scoreValue}!</strong>
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu com o arquétipo do <strong>MANIFESTADOR PRÓSPERO</strong>, um dos perfis mais influentes e abundantes do universo numerológico!
+            </p>
+
+            <p className="text-gray-300">
+              Já notou como você naturalmente assume posições de autoridade e liderança? Como as pessoas instintivamente respeitam sua opinião em assuntos importantes?
+            </p>
+
+            <p className="text-gray-300">
+              Não é coincidência. É seu número {scoreValue} em ação!
+            </p>
+
+            <p className="text-gray-300">
+              Você possui uma energia de comando que naturalmente atrai respeito e reconhecimento.
+            </p>
+
+            <p className="text-gray-300">
+              Sua visão estratégica e capacidade de tomar decisões importantes fazem com que outros confiem em sua orientação, reconhecendo uma autoridade natural que você carrega sem esforço.
+            </p>
+
+            <p className="text-gray-300">
+              E enquanto outros hesitam diante de grandes desafios, você os enfrenta com confiança!
+            </p>
+
+            <p className="text-gray-300">
+              Você tem uma capacidade extraordinária de visualizar o sucesso em grande escala, enxergando o potencial máximo onde a maioria apenas vê obstáculos intransponíveis.
+            </p>
+
+            <p className="text-gray-300">
+              Este é seu verdadeiro superpoder!
+            </p>
+
+            <p className="text-gray-300">
+              Além disso, você domina a arte da manifestação material.
+            </p>
+
+            <p className="text-gray-300">
+              Onde muitos sonham com prosperidade, você possui a determinação e o senso prático para transformar ambições em resultados concretos, com uma eficiência e força de vontade que impressionam todos ao seu redor.
+            </p>
+
+            <p className="text-gray-300">
+              Pense bem: Não é verdade que você se sente completamente realizado quando está gerenciando recursos, liderando projetos importantes ou construindo algo de valor duradouro?
+            </p>
+
+            <p className="text-gray-300">
+              Que situações onde você não pode exercer controle ou influência parecem contrariar sua natureza empreendedora?
+            </p>
+
+            <p className="text-gray-300">
+              Você nasceu para liderar, manifestar e prosperar!
+            </p>
+
+            <p className="text-gray-300">
+              E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
+            </p>
+          </>
+        );
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4">
@@ -190,67 +843,9 @@ const SalesPage = () => {
               </div>
             </div>
 
-            {/* Main Sales Copy */}
+            {/* Dynamic Archetype Text Block */}
             <div className="space-y-4">
-              <p className="text-gray-300">
-                Então, seu Número de Destino é <strong className="text-yellow-400">{score}!</strong>
-              </p>
-
-              <p className="text-gray-300">
-                Você nasceu com o arquétipo do <strong>MANIFESTADOR PRÓSPERO</strong>, um dos perfis mais influentes e abundantes do universo numerológico!
-              </p>
-
-              <p className="text-gray-300">
-                Já notou como você naturalmente assume posições de autoridade e liderança? Como as pessoas instintivamente respeitam sua opinião em assuntos importantes?
-              </p>
-
-              <p className="text-gray-300">
-                Não é coincidência. É seu número {score} em ação!
-              </p>
-
-              <p className="text-gray-300">
-                Você possui uma energia de comando que naturalmente atrai respeito e reconhecimento.
-              </p>
-
-              <p className="text-gray-300">
-                Sua visão estratégica e capacidade de tomar decisões importantes fazem com que outros confiem em sua orientação, reconhecendo uma autoridade natural que você carrega sem esforço.
-              </p>
-
-              <p className="text-gray-300">
-                É enquanto outros hesitam diante de grandes desafios, você os enfrenta com confiança!
-              </p>
-
-              <p className="text-gray-300">
-                Você tem uma capacidade extraordinária de visualizar o sucesso em grande escala, enxergando o potencial máximo onde a maioria apenas vê obstáculos intransponíveis.
-              </p>
-
-              <p className="text-gray-300">
-                Este é seu verdadeiro superpoder!
-              </p>
-
-              <p className="text-gray-300">
-                Além disso, você domina a arte da manifestação material.
-              </p>
-
-              <p className="text-gray-300">
-                Onde muitos sonham com prosperidade, você possui a determinação e o senso prático para transformar ambições em resultados concretos, com uma eficiência natural e força de vontade que impressionam todos ao seu redor.
-              </p>
-
-              <p className="text-gray-300">
-                Pense bem: Não é verdade que você se sente completamente realizado quando está gerenciando recursos, liderando projetos importantes ou construindo algo de valor duradouro?
-              </p>
-
-              <p className="text-gray-300">
-                Que situações onde você pode exercer controle ou influência parecem contrastar sua natureza empreendedora?
-              </p>
-
-              <p className="text-gray-300">
-                Você nasceu para liderar, manifestar e prosperar!
-              </p>
-
-              <p className="text-gray-300">
-                E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
-              </p>
+              {getArchetypeText(score)}
 
               <h3 className="text-yellow-400 text-2xl font-bold text-center my-8">
                 Por que o dinheiro CONTINUA escapando?
@@ -383,7 +978,7 @@ const SalesPage = () => {
             </p>
 
             <p className="text-gray-300">
-              Ele também explica qual é o caminho mais fácil para ganhar dinheiro, e porque alguns trabalhos nunca deram certo para você.
+              Ele também explica qual é o caminho mais fácil para ganhar dinheiro, e porque algumas trabalhos nunca deram certo para você.
             </p>
 
             <p className="text-gray-300">
