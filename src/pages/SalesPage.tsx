@@ -9,7 +9,45 @@ const SalesPage = () => {
   const mes = params.mes || 'Abril';
   const ano = params.ano || '2000';
   const score = params.score || '8';
-  const foco = params.area || 'dinheiro';
+  const area = params.area || 'dinheiro';
+
+  // Function to get qualities based on score
+  const getQualitiesByScore = (scoreValue: string) => {
+    switch (scoreValue) {
+      case '1':
+        return 'sua liderança natural e determinação incansável';
+      case '3':
+        return 'sua criatividade brilhante e carisma contagiante';
+      case '4':
+        return 'sua disciplina sólida e senso de estrutura';
+      case '5':
+        return 'sua energia vibrante e espírito de liberdade';
+      case '6':
+        return 'sua dedicação amorosa e senso de responsabilidade';
+      case '7':
+        return 'sua mente analítica e intuição aguçada';
+      case '8':
+        return 'sua força de realização e visão estratégica';
+      case '9':
+        return 'sua compaixão profunda e visão elevada';
+      case '11':
+        return 'sua intuição refinada e capacidade inspiradora';
+      case '22':
+        return 'sua visão grandiosa e capacidade de realização';
+      default:
+        return 'sua visão estratégica e capacidade executiva';
+    }
+  };
+
+  // Function to get proper article based on area
+  const getArticle = (areaValue: string) => {
+    return areaValue === 'saúde' ? 'a' : 'o';
+  };
+
+  // Function to capitalize area for titles
+  const getCapitalizedArea = (areaValue: string) => {
+    return areaValue.charAt(0).toUpperCase() + areaValue.slice(1);
+  };
 
   const getArchetypeText = (scoreValue: string) => {
     switch (scoreValue) {
@@ -715,7 +753,7 @@ const SalesPage = () => {
             {/* Description Text */}
             <div className="bg-purple-800/50 rounded-2xl p-6 mb-8 text-left">
               <p className="text-gray-300 text-lg leading-relaxed">
-                Você está prestes a descobrir um código oculto em sua data de nascimento que explica perfeitamente por que, mesmo com todo o seu potencial, o dinheiro sempre parece escapar das suas mãos...
+                Você está prestes a descobrir um código oculto em sua data de nascimento que explica perfeitamente por que, mesmo com todo o seu potencial, {getArticle(area)} {area} sempre parece escapar das suas mãos...
               </p>
             </div>
           </div>
@@ -848,11 +886,11 @@ const SalesPage = () => {
               {getArchetypeText(score)}
 
               <h3 className="text-yellow-400 text-2xl font-bold text-center my-8">
-                Por que o dinheiro CONTINUA escapando?
+                Por que {getArticle(area)} {area} CONTINUA escapando?
               </h3>
 
               <p className="text-gray-300">
-                {nome}, você já se perguntou por que, mesmo com sua visão estratégica e capacidade executiva, o dinheiro parece nunca ficar nas suas mãos?
+                {nome}, você já se perguntou por que, mesmo com {getQualitiesByScore(score)}, {getArticle(area)} {area} parece nunca ficar nas suas mãos?
               </p>
 
               <p className="text-red-400">
@@ -978,7 +1016,7 @@ const SalesPage = () => {
             </p>
 
             <p className="text-gray-300">
-              Ele também explica qual é o caminho mais fácil para ganhar dinheiro, e porque algumas trabalhos nunca deram certo para você.
+              Ele também explica qual é o caminho mais fácil para ganhar {area}, e porque algumas trabalhos nunca deram certo para você.
             </p>
 
             <p className="text-gray-300">
