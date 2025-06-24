@@ -70,15 +70,15 @@ const SalesPage = () => {
           {/* Long Form Content */}
           <div className="text-left space-y-6 mb-8">
             <p className="text-gray-300 text-lg">
-              <strong className="text-yellow-400">{nome}</strong>, Você consegue sentir?
+              <strong className="text-yellow-400">{nome}</strong>... Você consegue sentir?
             </p>
 
             <p className="text-gray-300">
-              Aquela sensação de que algo não estava certo hoje?
+              Aquela sensação de que algo está diferente hoje?
             </p>
 
             <p className="text-gray-300">
-              Não é coincidência você estar aqui agora, muito mais presente...
+              Não é coincidência você estar aqui agora, neste exato momento.
             </p>
 
             <p className="text-gray-300">
@@ -86,53 +86,55 @@ const SalesPage = () => {
             </p>
 
             <p className="text-gray-300">
-              Nos próximos minutos, vou te contar toda segunda maior tudo que pode mudar toda da sua vida.
+              Nos próximos minutos, vou te contar um segredo sobre você que pode mudar tudo na sua vida.
             </p>
 
             <p className="text-blue-400">
-              E algo tão verdadeiro sobre quem você é, que você vai se arrepender: "Como não sabia sobre mim até agora?"
+              É algo tão verdadeiro sobre quem você é, que você vai se perguntar: "Como ele sabe tanto sobre mim?"
             </p>
 
             <p className="text-gray-300">
-              Você já parou pra pensar por que alguma coisa parece sempre sair errado com você...
+              Você já parou pra pensar por que algumas pessoas parecem nascer com sorte...
             </p>
 
             <p className="text-gray-300">
-              Enquanto outras, outras pessoas, relaxam, vem ganhando sua meada realidade?
+              Enquanto outras, vivem batendo cabeça, com problemas que nunca acabam?
             </p>
 
             <p className="text-gray-300">
-              A resposta está bem perto de que você possa.
+              A resposta está mais perto do que você pensa.
             </p>
 
             <p className="text-gray-300">
-              Na verdade, está bem na: <strong>Codificada na sua data {dia} de {mes} nascimento.</strong>
+              Na verdade, está bem aí... Codificada no seu nome e na data do seu nascimento.
             </p>
 
             <p className="text-gray-300">
-              E eu vou lhe mostrar onde está codificada se como que seu dia influenciam diretamente todos de todas das suas importantes.
-            </p>
-
-            {/* Celebrity Images Section */}
-            <div className="bg-white/10 rounded-2xl p-6 my-8">
-              <div className="grid grid-cols-2 gap-4 mb-4">
-                <div className="bg-gray-600 rounded-lg h-32"></div>
-                <div className="bg-gray-600 rounded-lg h-32"></div>
-                <div className="bg-gray-600 rounded-lg h-32"></div>
-                <div className="bg-gray-600 rounded-lg h-32"></div>
-              </div>
-            </div>
-
-            <p className="text-gray-300">
-              E hoje, eu encontro duas realizado algo incrível acho VOCÊ.
+              É aí que entra a numerologia, a ciência antiga que celebridades e pessoas de sucesso sempre consultam, antes de tomar decisões importantes.
             </p>
 
             <p className="text-gray-300">
-              Eu uso Antigo Europeus, conseguirão o identificado há mais de 30 anos
+              E hoje, os números estão mostrando algo incrível sobre VOCÊ.
             </p>
 
             <p className="text-gray-300">
-              E não somente para endereços absolutamente que diferentes sua data de nascimento, eu posso hoje sobre de suas revelações.
+              Eu sou Artam Ferreira, numerólogo e clarividente há mais de 20 anos.
+            </p>
+
+            <p className="text-gray-300">
+              E algo muito raro aconteceu quando você informou sua data de nascimento, em nosso teste online de numerologia.
+            </p>
+
+            <p className="text-gray-300">
+              Vi que os números da sua vida estão finalmente se alinhando, depois de ficarem travados por muito tempo.
+            </p>
+
+            <p className="text-gray-300">
+              Isso explica TUDO o que está acontecendo com você agora.
+            </p>
+
+            <p className="text-gray-300">
+              Eu vou começar revelando o primeiro deles: O seu Número do Destino...
             </p>
 
             <div className="text-center my-8">
@@ -142,44 +144,47 @@ const SalesPage = () => {
             </div>
 
             <p className="text-gray-300">
-              Existem 18 elementos importantes no seu Mapa Numerológico pessoal.
+              Existem 11 números importantes no seu Mapa Numerológico pessoal.
             </p>
 
             <p className="text-gray-300">
-              Dentre todos, o Número de Destino é considerado um dos mais poderosos e reveladores.
+              Desses todos, o Número de Destino é considerado um dos mais poderosos e reveladores.
             </p>
 
             <p className="text-gray-300">
-              Pois descrever quais são suas principais sorte e delas, e não só isso que você! receberá:
+              Para descobrir qual é o seu, precisamos usar o dia, o mês e o ano em que você nasceu.
             </p>
 
             <p className="text-blue-400">
-              Este número é como um mapa de tesouro da sua vida. Ele mostra:
+              Este número é como um mapa do tesouro da sua vida. Ele mostra:
             </p>
 
             <div className="space-y-2 ml-6">
-              <p className="text-orange-400">👑 O caminho que você deve seguir</p>
-              <p className="text-orange-400">🔥 O talento que você mais sobra que tem</p>
-              <p className="text-blue-400">💎 Por que algumas coisas fluem or facilidade na sua vida</p>
-              <p className="text-purple-400">🔮 E o eu problema que você vida para resolver</p>
+              <p className="text-orange-400">🟡 O caminho que você deve seguir</p>
+              <p className="text-orange-400">🔴 Os talentos que você nem sabe que tem</p>
+              <p className="text-blue-400">🔵 Por que algumas coisas ficam se repetindo na sua vida</p>
+              <p className="text-purple-400">🔵⚫ E os problemas que você veio para resolver</p>
             </div>
 
             <p className="text-gray-300">
-              Vamos descobrir o seu Número de Destino agora!
+              Vamos descobrir o seu Número de Destino agora:
             </p>
 
             {/* Calculation Grid */}
             <div className="bg-white/10 rounded-2xl p-6 text-center my-8">
               <div className="grid grid-cols-3 gap-4 mb-4">
-                <div className="bg-blue-600 text-white p-4 rounded">Abril</div>
-                <div className="bg-purple-600 text-white p-4 rounded">4</div>
+                <div className="bg-blue-600 text-white p-4 rounded">{dia}</div>
+                <div className="bg-purple-600 text-white p-4 rounded">→</div>
+                <div className="bg-green-600 text-white p-4 rounded">{dia}</div>
+                <div className="bg-blue-600 text-white p-4 rounded">{mes}</div>
+                <div className="bg-purple-600 text-white p-4 rounded">→</div>
+                <div className="bg-green-600 text-white p-4 rounded">4</div>
+                <div className="bg-blue-600 text-white p-4 rounded">{ano}</div>
+                <div className="bg-purple-600 text-white p-4 rounded">→</div>
                 <div className="bg-green-600 text-white p-4 rounded">2</div>
-                <div className="bg-blue-600 text-white p-4 rounded">2000</div>
-                <div className="bg-purple-600 text-white p-4 rounded">2</div>
-                <div className="bg-green-600 text-white p-4 rounded">0</div>
               </div>
-              <div className="text-white text-lg mb-2">Soma tudo: 4 + 2 + 2 + 2</div>
-              <div className="text-white text-lg mb-4">Seu Número de Destino é</div>
+              <div className="text-white text-lg mb-2">Somando tudo: {dia} + 4 + 2 = {score}</div>
+              <div className="text-white text-lg mb-4">Seu Número de Destino é:</div>
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center mx-auto">
                 <span className="text-white text-2xl font-bold">{score}</span>
               </div>
@@ -188,67 +193,63 @@ const SalesPage = () => {
             {/* Main Sales Copy */}
             <div className="space-y-4">
               <p className="text-gray-300">
-                <strong className="text-yellow-400">{nome}</strong>, seu Número de Destino é <strong className="text-yellow-400">{score}</strong>
+                Então, seu Número de Destino é <strong className="text-yellow-400">{score}!</strong>
               </p>
 
               <p className="text-gray-300">
-                Você sempre tem a impressão de <strong>ADMINISTRAR PROBLEMAS</strong>, que não deveria estar enfrentando e é desgaste te consomem espiritualmente?
+                Você nasceu com o arquétipo do <strong>MANIFESTADOR PRÓSPERO</strong>, um dos perfis mais influentes e abundantes do universo numerológico!
               </p>
 
               <p className="text-gray-300">
-                Já sentia como você naturalmente cresceu preocupado de identificar o diferença? Como se você intuitivamente respondeu aos aspectos uma questiona importante?
+                Já notou como você naturalmente assume posições de autoridade e liderança? Como as pessoas instintivamente respeitam sua opinião em assuntos importantes?
               </p>
 
               <p className="text-gray-300">
-                Não é coincidência. É seu número 8 não está!
+                Não é coincidência. É seu número {score} em ação!
               </p>
 
               <p className="text-gray-300">
-                Você parece tanto merecia de confirmar que satisfatório seu empresas e reconhecimento
+                Você possui uma energia de comando que naturalmente atrai respeito e reconhecimento.
               </p>
 
               <p className="text-gray-300">
-                Sua como estratégicas e capacidade de tomar decisões interiores fazem com que muitas outras de identificação, compreendendo muito extrovertida vida quer outros podem com exigente.
+                Sua visão estratégica e capacidade de tomar decisões importantes fazem com que outros confiem em sua orientação, reconhecendo uma autoridade natural que você carrega sem esforço.
               </p>
 
               <p className="text-gray-300">
-                E pessoas que habitam diante de grandes desafios, você está confortante com essencia!
+                É enquanto outros hesitam diante de grandes desafios, você os enfrenta com confiança!
               </p>
 
               <p className="text-gray-300">
-                Você tem uma capacidade extraordinária de disciplina e também são grande escala.
-              </p>
-
-              <p className="text-gray-300">
-                Impor resultado pessoas nada e mesmo situação de conformidade.
+                Você tem uma capacidade extraordinária de visualizar o sucesso em grande escala, enxergando o potencial máximo onde a maioria apenas vê obstáculos intransponíveis.
               </p>
 
               <p className="text-gray-300">
                 Este é seu verdadeiro superpoder!
               </p>
 
-              <p className="text-red-400">
-                Mas talvez, você deveria e ver de outra maneira não satisfazia resultado.
+              <p className="text-gray-300">
+                Além disso, você domina a arte da manifestação material.
               </p>
 
               <p className="text-gray-300">
-                Quem mesmo algumas coisas responsables, você possui a determinação e e campo público para superação as tarefas em realidade concluídas, com suas energia! Para já cobrindo por destas sobre ao seu redor.
+                Onde muitos sonham com prosperidade, você possui a determinação e o senso prático para transformar ambições em resultados concretos, com uma eficiência natural e força de vontade que impressionam todos ao seu redor.
               </p>
 
               <p className="text-gray-300">
-                Como fato. Não é verdade que você eu definitivas sente completamente recebendo quando você gerenciando recebindo despatho personalizada ou chancelado das se outros valores vamos?
+                Pense bem: Não é verdade que você se sente completamente realizado quando está gerenciando recursos, liderando projetos importantes ou construindo algo de valor duradouro?
               </p>
 
               <p className="text-gray-300">
-                <strong>Definitivamente pessoas!</strong> À hoje mesmo estaremos de reflexão políticas confrontar seu desastres acontecendo!
+                Que situações onde você pode exercer controle ou influência parecem contrastar sua natureza empreendedora?
               </p>
 
               <p className="text-gray-300">
-                Você mesmo algo TEM vê ansiedade é interna?
+                Você nasceu para liderar, manifestar e prosperar!
               </p>
 
               <p className="text-gray-300">
-                E esta é precisamente a casos pela qual tem imensurar a sua importante na sua vida...
+                E esta é precisamente a razão pela qual este momento é tão importante na sua vida...
               </p>
 
               <h3 className="text-yellow-400 text-2xl font-bold text-center my-8">
@@ -256,28 +257,28 @@ const SalesPage = () => {
               </h3>
 
               <p className="text-gray-300">
-                João, você já se perguntou por que, mesmo com sua visão estratégica e capacidade executiva, o dinheiro parece fazer suas duas mãos?
+                {nome}, você já se perguntou por que, mesmo com sua visão estratégica e capacidade executiva, o dinheiro parece nunca ficar nas suas mãos?
               </p>
 
               <p className="text-red-400">
-                É como os números não dentro mais do sus energia, inclusive area você tem <strong>CONSTANTE</strong> na sua outras manifestações.
+                É como se existisse um ponto cego na sua energia, invisível para você, mas <strong>GRITANTE</strong> na sua análise numerológica.
               </p>
 
               <p className="text-gray-300">
-                Sua número 8 tem uma característica única:
+                Seu número {score} tem uma característica única:
               </p>
 
               <div className="bg-orange-100 text-black p-6 rounded-2xl my-6">
                 <p className="font-semibold">
-                  🟢 Quando DESBLOQUEADA, você domination es forma magnética, <strong>repetir sua vida</strong>
+                  ✅ <strong>Quando DESBLOQUEADO:</strong> atrai abundância de forma magnética, como um ímã
                 </p>
                 <p className="font-semibold">
-                  🔴 Quando BLOQUEADA, outros veem melhores realizações financeiras.
+                  ❌ <strong>Quando BLOQUEADO:</strong> sabota seus melhores esforços financeiros
                 </p>
               </div>
 
               <p className="text-gray-300">
-                E existe uma verdade que precisa ser coisa: and choose á ceste bloqueio há mais de 2 anos
+                E aqui está a verdade que preciso te contar: seu número {score} está bloqueado há mais de 2 anos.
               </p>
 
               <p className="text-gray-300">
@@ -285,32 +286,35 @@ const SalesPage = () => {
               </p>
 
               <div className="space-y-2 ml-4">
-                <p className="text-gray-300">• Você view outras de obter a forma que sua vida financeira;</p>
-                <p className="text-gray-300">• Mesmo tem propostas de liderança, você enfrenta mais resistance para conseguir a resposta do que outras deverão, para trabalhos mais simples;</p>
-                <p className="text-gray-300">• You apreendesse de promover outros se decidirt ao invert aspects do você conseguir que é</p>
-                <p className="text-gray-300">• Você sente er succession seizes acompanhando oportunidade implementar importante</p>
-                <p className="text-gray-300">• Quando você faz de dar sozinha reservas, sempre "coincidentally que acabará sua alguns outros elementos</p>
-                <p className="text-gray-300">• E as vezes with of seu que se identifier com outras características, mas as"</p>
+                <p className="text-gray-300">→ Você vive <strong>ciclos de altos e baixos</strong> em sua vida financeira...</p>
+                <p className="text-gray-300">→ Mesmo em posições de liderança, você enfrenta mais resistência do que seria natural, para que as outras pessoas abracem suas ideias</p>
+                <p className="text-gray-300">→ Sua necessidade de gerenciar todos os detalhes às vezes impede que você delegue o que é preciso, para o crescimento</p>
+                <p className="text-gray-300">→ Seu foco no sucesso externo ocasionalmente compromete relacionamentos importantes</p>
+                <p className="text-gray-300">→ Quando está perto de grandes avanços, surgem "coincidências" que atrasam sua ascensão</p>
               </div>
 
               <p className="text-gray-300">
-                Aliás, você pode ver su Destino 8 é como uma central pronto para você carbage.
+                E eu estou certo de que você se identifica com essas situações, não é?
               </p>
 
               <p className="text-gray-300">
-                But então falta apenas precise para desbloquear. O Universo está responsável, não confusible de perspectiva foram usar a grande NÃO!
+                Afinal, este ponto cego do Destino {score} é como uma âncora pesada que você carrega.
               </p>
 
               <p className="text-gray-300">
-                Felizmente de sabe exatamente que seu Destino 8 precisa de servir em sua oportunidade para de transformação...
+                Por isso, mesmo tendo potencial para abundância, o Universo tem respondido seus pedidos de prosperidade com um grande NÃO.
               </p>
 
               <p className="text-gray-300">
-                This podem sobre energética and em after aspectos seus um a cada 5 anos da sua vida
+                O que você ainda não sabe é que seu Destino {score} acabou de entrar em um período raro de transformação...
               </p>
 
               <p className="text-gray-300">
-                E esse análise, é que constituem sua problema mouse determination-se, factors para em sa previsão mão!
+                Estou falando de uma janela energética que se abre apenas uma vez a cada 9 anos da sua vida.
+              </p>
+
+              <p className="text-gray-300">
+                E por esse motivo, o que acontecer nos próximos meses determinará seu futuro para os próximos anos!
               </p>
 
               <h3 className="text-yellow-400 text-2xl font-bold text-center my-8">
@@ -318,15 +322,15 @@ const SalesPage = () => {
               </h3>
 
               <p className="text-gray-300">
-                Todo número 8 chega a uma momento decisivo. E parece it Universe força uma escolha:
+                Todo número {score} chega a esse momento decisivo. É quando o Universo força uma escolha:
               </p>
 
               <div className="space-y-4 my-6">
                 <p className="text-orange-400">
-                  👑 Continuar no mesmo pattern bloqueado, aceitando outros tratamento e que você sempre sofrhou...
+                  🟡 Continuar no mesmo padrão bloqueado, assistindo outros realizarem o que você sempre sonhou...
                 </p>
                 <p className="text-blue-400">
-                  👑 Or finalmente desbloquear seu código de abundance e começar a contruir o seu desires!
+                  🔵 Ou finalmente desbloquear seu código de abundância e assumir o controle do seu destino
                 </p>
               </div>
             </div>
@@ -334,23 +338,29 @@ const SalesPage = () => {
             {/* Testimonials Section */}
             <div className="bg-white/10 rounded-2xl p-6 my-8">
               <h4 className="text-white text-xl font-bold mb-4 text-center">
-                O segredo que está transformando destinos n°8
+                O segredo que está transformando destinos n°{score}
               </h4>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gray-400 rounded-full mx-auto mb-3"></div>
-                  <h5 className="text-purple-400 font-bold mb-2">Raí Belini</h5>
+                  <h5 className="text-purple-400 font-bold mb-2">Rui Betini</h5>
+                  <p className="text-gray-300 text-sm">
+                    <small>(também número {score})</small>
+                  </p>
                   <p className="text-gray-300 text-sm italic">
-                    "Eu viva perdido de prospects sem organizar, sem visão de futuro long prazo, não considerava meus bloqueios internet E poucos reais tinham um impacto realmente importância sobre clareza da sonda impresso valores"
+                    "Eu vivia pulando de emprego em emprego, sempre insatisfeito. Depois que Artam identificou meu bloqueio do número {score}, consegui focar minha energia. Em 47 dias, paguei todas minhas dívidas e ainda comecei meu próprio negócio!"
                   </p>
                 </div>
                 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gray-400 rounded-full mx-auto mb-3"></div>
-                  <h5 className="text-purple-400 font-bold mb-2">Lucia Castilho</h5>
+                  <h5 className="text-purple-400 font-bold mb-2">Lúcia Castilho</h5>
+                  <p className="text-gray-300 text-sm">
+                    <small>(também número {score})</small>
+                  </p>
                   <p className="text-gray-300 text-sm italic">
-                    "Estava perdeu o falar de como artista até descobri meu deserves do desbloquear e seu reparat de um financ realty reais coisas de que absorve!"
+                    "Estava prestes a desistir do meu sonho quando descobri meu ponto cego. Apliquei a técnica de desbloqueio e, em menos de um mês, recebi três propostas de trabalho. Minha renda mais que dobrou!"
                   </p>
                 </div>
               </div>
@@ -361,51 +371,60 @@ const SalesPage = () => {
             </h3>
 
             <p className="text-gray-300">
-              João, eu entendo que chegou a sua vida considerada sugestão sobre essa tão profundas, que assim deveria saber:
+              {nome}, os números que regem a sua vida escondem segredos ainda mais profundos, que quero revelar a você.
             </p>
 
             <p className="text-gray-300">
-              Existe apenas apenas elementos que são sumamente interno, que não será se é não mesmo poder visualize intenciona, que quer que seja bem diferente para ser propósito.
+              Existe um segundo número na sua numerologia pessoal, que diz qual é o seu maior poder interno, e qual o seu potencial para o futuro.
             </p>
 
             <p className="text-gray-300">
-              Importante é seu Número de Destino 8 exatamente o que completo, que expandir próspero revela como chegar lá muito rápido, estão esperando.
+              Enquanto o seu Número de Destino {score} apontou o seu caminho, este segundo número revela como chegar lá mais rápido, e sem errar.
             </p>
 
             <p className="text-gray-300">
-              De qualquer coisa que é si e quanto mais fácil para ganhar dinheiro, a propor algum problema mesmo outras direito su post para outros perto.
+              Ele também explica qual é o caminho mais fácil para ganhar dinheiro, e porque alguns trabalhos nunca deram certo para você.
             </p>
 
             <p className="text-gray-300">
-              E o mais importe: Esse número mesmo será a grande oportunidade que está chegando as sua vida, não inclusive outros se completo se completar de todo.
+              E o mais incrível... Esse número mostra qual é a grande oportunidade que está chegando na sua vida, nos próximos meses, e como se preparar para ela.
             </p>
 
             <p className="text-gray-300">
-              Para recestar todo isso, preciso calculhar <strong>Número de Prosperidade</strong>, que é qualquer das força de seu properties Destino.
+              Para acessar tudo isso, preciso calcular seu <strong>Número de Expressão</strong>, que é extraído das letras do seu nome completo de nascimento, igual está na sua certidão.
             </p>
 
             <p className="text-gray-300">
-              Este é número que nu número empresarial e fazem absolutas conclusões sobre de produtos destinos.
+              Este é o número que os maiores empresários e líderes mundiais consultam antes de grandes decisões...
             </p>
 
             <p className="text-gray-300">
-              Estão aborta decreto
+              Então preste atenção:
             </p>
 
             <p className="text-gray-300">
-              Ou clique do botão abaixo, seja immediately supervivência uma sua linha.
+              Ao clicar no botão abaixo, um formulário aparecerá em sua tela.
             </p>
 
             <p className="text-gray-300">
-              Para que vai podem recestar que enhance de empresas, é que você digital seu como complete de Análise ainda ser que seu Número 8 seja digital - E ela é:
+              Para que eu possa revelar seu número de expressão, é só você digitar seu nome completo de nascimento, igual está na sua certidão. É só clicar...
             </p>
+
+            {/* Celebrity Images Section */}
+            <div className="bg-white/10 rounded-2xl p-6 my-8">
+              <img 
+                src="/lovable-uploads/1d5c84df-8e61-4d54-9a70-4676148ced74.png"
+                alt="Celebridades e numerologia" 
+                className="w-full rounded-lg"
+              />
+            </div>
           </div>
 
           {/* CTA Button */}
           <div className="text-center mt-12">
             <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-6 px-16 rounded-2xl text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl mb-4">
               REVELAR NÚMERO DE EXPRESSÃO
-              <div className="text-sm font-normal">(clique aqui para continuar)</div>
+              <div className="text-sm font-normal">(Clique aqui para continuar)</div>
             </button>
             
             <div className="flex justify-center space-x-2 mb-6">
@@ -419,19 +438,19 @@ const SalesPage = () => {
             </p>
 
             <p className="text-gray-300 text-sm mt-2">
-              A sua família de below não altera é um que algum elemento
+              A sua janela de leitura está aberta só por alguns minutos.
             </p>
 
             <p className="text-gray-300 text-sm">
-              Se fez clear nessa opsyes no challenge que cheer na forma você, entre perdidos a atualized do não código ~ por moreentiment.
+              Se fechar essa página ou demorar para clicar no botão verde, você perdera a revelação do seu código da prosperidade, que pode desbloquear todo o seu potencial...
             </p>
 
             <p className="text-gray-300 text-sm">
-              Este adalah é segunda lugar existimentos no mês do contraste menos que você tarde, e want contratar os números todos durante the mês.
+              Isso inclui o segredo para reconhecer os sinais do universo antes que seja tarde, e como aproveitar os momentos decisivos que estão por vir no futuro.
             </p>
 
             <p className="text-blue-400 text-sm underline cursor-pointer hover:text-blue-300">
-              Clique aqui para receber um mês seu Número de Expresao?
+              » Clique para revelar a análise do seu Número de Expressão «
             </p>
           </div>
         </div>
